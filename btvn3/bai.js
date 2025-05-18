@@ -77,7 +77,7 @@ const averageScore = totalScore / students.length;
 console.log("Điểm trung bình của các học sinh:", averageScore);
  */
 
-
+length
 
 
 
