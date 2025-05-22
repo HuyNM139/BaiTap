@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camera Interface</title>
+    <title>Camera</title>
+        <style>
+            #history{
+                color: white;
+            }
+        </style>
 </head>
-<body>
-    <div class="camera-container">
-        <div class="camera-preview"></div>
+<body id = "body">
+    <div class="container">
+        <div class="preview"></div>
         <div class="controls">
-            <span class="icon flash-icon">⚡</span>
-            <div class="shutter-button"></div>
-            <span class="icon flip-icon">🔄</span>
+            <div id="flash">⚡</div>
+            <div id="button"></div>
+            <div id="flip">🔄</div>
         </div>
-        <div class="history-label">History ▼</div>
+        <div id="history">History ▼</div>
     </div>
     <script src="./bai2.js"></script>
 </body>
